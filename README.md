@@ -6,3 +6,4 @@ Models used to date:
 3. ResNet101V2 Full training
 4. ResNet152V2 Full training with callbacks for learning rate decline and early stopping
 5. DenseNet201 Full training with callbacks for learning rate decline and early stopping
+6. DenseNet201 EfficientNet B7 ensamble. (Best Performance)
