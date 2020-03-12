@@ -8,4 +8,5 @@ Models used to date:
 5. DenseNet201 Full training with callbacks for learning rate decline and early stopping
 6. DenseNet201 EfficientNet B7 ensamble. (Best Performance) 
 Final performance 96.552 % accuracy by using validation set for training.   
-Point of note: While the Ensamble of DN201 and ENB7 has the best competition performance it would be ill suited to deployment in an apllication. Not only does the model require nearly twice the training time, it is also significantly slower in calculating the predictions.
+Point of note: While the Ensamble of DN201 and ENB7 has the best competition performance it would be ill suited to deployment in an apllication. Not only does the model require nearly twice the training time, it is also significantly slower in calculating the predictions.   
+I also attempted to use NASNetLarge on the dataset but ended up with severe overfitting issues, thus this model is not included. 
